@@ -10,8 +10,9 @@ def listRemove(lst):
     if inp in 'yY':
         lst.remove()
     return lst
-
-
+    else:
+        pass
+        
 lst=[]
 lim=int(input("Enter the Limit : "))
 
