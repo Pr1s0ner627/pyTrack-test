@@ -12,7 +12,7 @@ def listRemove(lst):
     else:
         pass
 
-def listUpdate(lst):
+def listUpdate(lst,lim):
     inp=input("Want to update the value : ")
     if inp in 'yY':
         idx=input("Enter the Position you want to update : ")
@@ -31,3 +31,4 @@ lim=int(input("Enter the Limit : "))
 
 listCreate(lst,lim)
 listRemove(lst)
+listUpdate(lst,lim)
