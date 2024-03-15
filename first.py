@@ -15,12 +15,13 @@ def listRemove(lst):
 def listUpdate(lst,lim):
     inp=input("Want to update the value : ")
     if inp in 'yY':
-        idx=input("Enter the Position you want to update : ")
-        if(idx>=lim):
+        idx=int(input("Enter the Position you want to update : "))
+        while(idx>=lim):
             print("Try Again!")
         else:
             num=int(input("Enter input : "))
             lst[idx]=num
+
     else:
         pass
     return lst
@@ -32,3 +33,5 @@ lim=int(input("Enter the Limit : "))
 listCreate(lst,lim)
 listRemove(lst)
 listUpdate(lst,lim)
+
+print("Finalised result : ", lst)
