@@ -1,4 +1,4 @@
-import first
+import first as fst
 
 print("Welcome to User App")
 
@@ -13,17 +13,17 @@ chc=int(input("Enter your Choice : "))
 if chc==1:
     lst=[]
     lim=int(input("Enter the Limit : "))
-    first.listCreate(lst,lim)
+    fst.listCreate(lst,lim)
 
 if chc==2:
     print("Finalised result : ", lst)
 
 if chc==3:
-    first.listUpdate(lst,lim)
+    fst.listUpdate(lst,lim)
 
 
 if chc==4:
-    first.listRemove(lst)
+    fst.listRemove(lst)
 
 
 
