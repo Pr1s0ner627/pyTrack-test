@@ -12,4 +12,4 @@ Gotta Check on Others as well
 
 Amaterasu = Sun Goddess
 Tsukuyomi = Moon God
-Meiji Restoration
+
